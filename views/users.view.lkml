@@ -72,7 +72,14 @@ view: users {
     type: count
     drill_fields: [detail*]
   }
-
+measure: sum {
+  type: sum
+  sql: ${id} ;;
+}
+measure: avg {
+  type: average
+  sql: ${id} ;;
+}
   # ----- Sets of fields for drilling ------
   set: detail {
     fields: [
