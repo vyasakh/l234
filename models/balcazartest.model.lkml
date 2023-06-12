@@ -34,4 +34,19 @@ explore: order_items {
   }
 }
 
+map_layer: poly {
+  file: "/poly.json"
+}
+map_layer: USzip {
+  file: "/USZip.json"
+}
+
+map_layer: USAzip {
+  file: "/USAzip.json"
+}
+map_layer: USAzipurl {
+  url: "https://gist.githubusercontent.com/jefffriesen/6892860/raw/e1f82336dde8de0539a7bac7b8bc60a23d0ad788/zips_us_topo.json"
+}
+
+
 explore: users {}

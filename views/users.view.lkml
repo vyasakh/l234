@@ -66,6 +66,8 @@ view: users {
   dimension: zip {
     type: zipcode
     sql: ${TABLE}.zip ;;
+   map_layer_name: USAzip
+ #map_layer_name: USAzipurl
   }
 
   measure: count {
